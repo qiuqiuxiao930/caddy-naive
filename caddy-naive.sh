@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo -i
 cd /home
 sudo apt update
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
