@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo -i
 apt update
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 docker pull qiuqiuxiao930/docker-test:v1
